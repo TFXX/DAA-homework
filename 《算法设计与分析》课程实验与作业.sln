@@ -15,6 +15,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "棋盘覆盖", "棋盘覆�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "采用回溯法来设计实现0-1背包问题", "采用回溯法来设计实现0-1背包问题\采用回溯法来设计实现0-1背包问题.vcxproj", "{CD12FA30-6B17-4AF6-80E6-C94282FA1D8F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "采用贪心法来设计实现无重叠区间问题", "采用贪心法来设计实现无重叠区间问题\采用贪心法来设计实现无重叠区间问题.vcxproj", "{E6B862A0-5F48-4BFF-8C7A-8F1BD5723A30}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "采用贪心法来设计实现多机调度问题", "采用贪心法来设计实现多机调度问题\采用贪心法来设计实现多机调度问题.vcxproj", "{B8E78BB2-437D-4292-A52D-6B4DE1CEFD62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -123,6 +127,38 @@ Global
 		{CD12FA30-6B17-4AF6-80E6-C94282FA1D8F}.Release|x64.Build.0 = Release|x64
 		{CD12FA30-6B17-4AF6-80E6-C94282FA1D8F}.Release|x86.ActiveCfg = Release|Win32
 		{CD12FA30-6B17-4AF6-80E6-C94282FA1D8F}.Release|x86.Build.0 = Release|Win32
+		{E6B862A0-5F48-4BFF-8C7A-8F1BD5723A30}.Debug|ARM.ActiveCfg = Debug|x64
+		{E6B862A0-5F48-4BFF-8C7A-8F1BD5723A30}.Debug|ARM.Build.0 = Debug|x64
+		{E6B862A0-5F48-4BFF-8C7A-8F1BD5723A30}.Debug|ARM64.ActiveCfg = Debug|x64
+		{E6B862A0-5F48-4BFF-8C7A-8F1BD5723A30}.Debug|ARM64.Build.0 = Debug|x64
+		{E6B862A0-5F48-4BFF-8C7A-8F1BD5723A30}.Debug|x64.ActiveCfg = Debug|x64
+		{E6B862A0-5F48-4BFF-8C7A-8F1BD5723A30}.Debug|x64.Build.0 = Debug|x64
+		{E6B862A0-5F48-4BFF-8C7A-8F1BD5723A30}.Debug|x86.ActiveCfg = Debug|Win32
+		{E6B862A0-5F48-4BFF-8C7A-8F1BD5723A30}.Debug|x86.Build.0 = Debug|Win32
+		{E6B862A0-5F48-4BFF-8C7A-8F1BD5723A30}.Release|ARM.ActiveCfg = Release|x64
+		{E6B862A0-5F48-4BFF-8C7A-8F1BD5723A30}.Release|ARM.Build.0 = Release|x64
+		{E6B862A0-5F48-4BFF-8C7A-8F1BD5723A30}.Release|ARM64.ActiveCfg = Release|x64
+		{E6B862A0-5F48-4BFF-8C7A-8F1BD5723A30}.Release|ARM64.Build.0 = Release|x64
+		{E6B862A0-5F48-4BFF-8C7A-8F1BD5723A30}.Release|x64.ActiveCfg = Release|x64
+		{E6B862A0-5F48-4BFF-8C7A-8F1BD5723A30}.Release|x64.Build.0 = Release|x64
+		{E6B862A0-5F48-4BFF-8C7A-8F1BD5723A30}.Release|x86.ActiveCfg = Release|Win32
+		{E6B862A0-5F48-4BFF-8C7A-8F1BD5723A30}.Release|x86.Build.0 = Release|Win32
+		{B8E78BB2-437D-4292-A52D-6B4DE1CEFD62}.Debug|ARM.ActiveCfg = Debug|x64
+		{B8E78BB2-437D-4292-A52D-6B4DE1CEFD62}.Debug|ARM.Build.0 = Debug|x64
+		{B8E78BB2-437D-4292-A52D-6B4DE1CEFD62}.Debug|ARM64.ActiveCfg = Debug|x64
+		{B8E78BB2-437D-4292-A52D-6B4DE1CEFD62}.Debug|ARM64.Build.0 = Debug|x64
+		{B8E78BB2-437D-4292-A52D-6B4DE1CEFD62}.Debug|x64.ActiveCfg = Debug|x64
+		{B8E78BB2-437D-4292-A52D-6B4DE1CEFD62}.Debug|x64.Build.0 = Debug|x64
+		{B8E78BB2-437D-4292-A52D-6B4DE1CEFD62}.Debug|x86.ActiveCfg = Debug|Win32
+		{B8E78BB2-437D-4292-A52D-6B4DE1CEFD62}.Debug|x86.Build.0 = Debug|Win32
+		{B8E78BB2-437D-4292-A52D-6B4DE1CEFD62}.Release|ARM.ActiveCfg = Release|x64
+		{B8E78BB2-437D-4292-A52D-6B4DE1CEFD62}.Release|ARM.Build.0 = Release|x64
+		{B8E78BB2-437D-4292-A52D-6B4DE1CEFD62}.Release|ARM64.ActiveCfg = Release|x64
+		{B8E78BB2-437D-4292-A52D-6B4DE1CEFD62}.Release|ARM64.Build.0 = Release|x64
+		{B8E78BB2-437D-4292-A52D-6B4DE1CEFD62}.Release|x64.ActiveCfg = Release|x64
+		{B8E78BB2-437D-4292-A52D-6B4DE1CEFD62}.Release|x64.Build.0 = Release|x64
+		{B8E78BB2-437D-4292-A52D-6B4DE1CEFD62}.Release|x86.ActiveCfg = Release|Win32
+		{B8E78BB2-437D-4292-A52D-6B4DE1CEFD62}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
