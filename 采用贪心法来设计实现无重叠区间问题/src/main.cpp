@@ -60,6 +60,8 @@ int main(int, char**)
 		std::cin >> temp.left_;
 		vec_i.push_back(temp);
 	}
+
+	std::cout << "请输入" << n << "个活动对应的结束时间\n>";
 	
 	for (auto &i : vec_i)
 	{

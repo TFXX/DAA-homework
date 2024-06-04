@@ -32,13 +32,17 @@ value_type MaxValue(std::vector<weight_type> vec_w, std::vector<value_type> vec_
 		}
 
 		// if current situation is a better solution, update max(best solution)
-		max = (max < v)?(v):(max);
-
-		if (nullptr != p_stack_snapshot)
+		if (max < v)
 		{
-			*p_stack_snapshot = stack_bag;
+			max = v;
+
+			if (nullptr != p_stack_snapshot)
+			{
+				*p_stack_snapshot = stack_bag;
+			}
 		}
 
+		
 		// pop the last item from bag
 		bool b_empty = false;
 		do{
