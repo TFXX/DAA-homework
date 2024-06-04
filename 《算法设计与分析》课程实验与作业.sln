@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "采用贪心法来设计实
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "采用贪心法来设计实现多机调度问题", "采用贪心法来设计实现多机调度问题\采用贪心法来设计实现多机调度问题.vcxproj", "{B8E78BB2-437D-4292-A52D-6B4DE1CEFD62}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "采用回溯法来设计实现2艘船的最优装载问题", "采用回溯法来设计实现2艘船的最优装载问题\采用回溯法来设计实现2艘船的最优装载问题.vcxproj", "{99B1A18A-4FD8-4D33-950F-DEE9925804C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -159,6 +161,22 @@ Global
 		{B8E78BB2-437D-4292-A52D-6B4DE1CEFD62}.Release|x64.Build.0 = Release|x64
 		{B8E78BB2-437D-4292-A52D-6B4DE1CEFD62}.Release|x86.ActiveCfg = Release|Win32
 		{B8E78BB2-437D-4292-A52D-6B4DE1CEFD62}.Release|x86.Build.0 = Release|Win32
+		{99B1A18A-4FD8-4D33-950F-DEE9925804C7}.Debug|ARM.ActiveCfg = Debug|x64
+		{99B1A18A-4FD8-4D33-950F-DEE9925804C7}.Debug|ARM.Build.0 = Debug|x64
+		{99B1A18A-4FD8-4D33-950F-DEE9925804C7}.Debug|ARM64.ActiveCfg = Debug|x64
+		{99B1A18A-4FD8-4D33-950F-DEE9925804C7}.Debug|ARM64.Build.0 = Debug|x64
+		{99B1A18A-4FD8-4D33-950F-DEE9925804C7}.Debug|x64.ActiveCfg = Debug|x64
+		{99B1A18A-4FD8-4D33-950F-DEE9925804C7}.Debug|x64.Build.0 = Debug|x64
+		{99B1A18A-4FD8-4D33-950F-DEE9925804C7}.Debug|x86.ActiveCfg = Debug|Win32
+		{99B1A18A-4FD8-4D33-950F-DEE9925804C7}.Debug|x86.Build.0 = Debug|Win32
+		{99B1A18A-4FD8-4D33-950F-DEE9925804C7}.Release|ARM.ActiveCfg = Release|x64
+		{99B1A18A-4FD8-4D33-950F-DEE9925804C7}.Release|ARM.Build.0 = Release|x64
+		{99B1A18A-4FD8-4D33-950F-DEE9925804C7}.Release|ARM64.ActiveCfg = Release|x64
+		{99B1A18A-4FD8-4D33-950F-DEE9925804C7}.Release|ARM64.Build.0 = Release|x64
+		{99B1A18A-4FD8-4D33-950F-DEE9925804C7}.Release|x64.ActiveCfg = Release|x64
+		{99B1A18A-4FD8-4D33-950F-DEE9925804C7}.Release|x64.Build.0 = Release|x64
+		{99B1A18A-4FD8-4D33-950F-DEE9925804C7}.Release|x86.ActiveCfg = Release|Win32
+		{99B1A18A-4FD8-4D33-950F-DEE9925804C7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
